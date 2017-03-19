@@ -1,0 +1,1446 @@
+Input Format : java Client <Client Name> <TTL> <Flush Time>
+127.0.0.1 40001 taken
+127.0.0.1 40002 available
+127.0.0.1 40003 available
+127.0.0.1 40004 available
+127.0.0.1 40005 available
+127.0.0.1 40006 available
+127.0.0.1 40007 available
+127.0.0.1 40008 available
+127.0.0.1 40009 available
+127.0.0.1 40010 available
+1. 127.0.0.140002
+2. 127.0.0.140003
+3. 127.0.0.140004
+4. 127.0.0.140005
+5. 127.0.0.140006
+6. 127.0.0.140007
+7. 127.0.0.140008
+8. 127.0.0.140009
+9. 127.0.0.140010
+127.0.0.1  40001
+
+ Client listening on 40001
+ 
+ 
+--------------------------------------------------------------------------------------
+************************** Between 2 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '1' Clients in Milliseconds: 67
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 67ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.23MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '1' Clients in Milliseconds: 9
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 9ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.48MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '1' Clients in Milliseconds: 12
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 12ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 21.98MB/sec
+---------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 3 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '2' Clients in Milliseconds: 34
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 18ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.18MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 49ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.35MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '2' Clients in Milliseconds: 12
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 12ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.73MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 13ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.9MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '2' Clients in Milliseconds: 16
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 15ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 43.71MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 16ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 8
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 12.11MB/sec
+---------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 4 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '3' Clients in Milliseconds: 29
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40002   Response Time :- 16ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.2MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.21MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40004   Response Time :- 51ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.36MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '3' Clients in Milliseconds: 17
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40004   Response Time :- 15ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.14MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 18ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.66MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40002   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.98MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '3' Clients in Milliseconds: 19
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40003   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 25.93MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40004   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 17.71MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40002   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 15.51MB/sec
+---------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 5 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '4' Clients in Milliseconds: 29
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40004   Response Time :- 18ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.21MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40002   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.2MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40003   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.24MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40005   Response Time :- 54ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.3MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '4' Clients in Milliseconds: 20
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.71MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40004   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.91MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40003   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 4.52MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40002   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 3.55MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '4' Clients in Milliseconds: 27
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40004   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 51.78MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40002   Response Time :- 28ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 47.1MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40003   Response Time :- 28ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 26.84MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40005   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 13.31MB/sec
+---------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 6 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '5' Clients in Milliseconds: 34
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.23MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40004   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.24MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40003   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.23MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40002   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.14MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40006   Response Time :- 61ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.36MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '5' Clients in Milliseconds: 21
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.46MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 5.35MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40004   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.4MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40006   Response Time :- 21ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.32MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40002   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.88MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '5' Clients in Milliseconds: 33
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40003   Response Time :- 26ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 8
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 11.25MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40005   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 50.02MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40004   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 17.55MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40006   Response Time :- 38ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 9
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 9.94MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40002   Response Time :- 41ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 51.94MB/sec
+---------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+************************** Between 7 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '6' Clients in Milliseconds: 29
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 19ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.25MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40006   Response Time :- 21ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.36MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40003   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.13MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40004   Response Time :- 27ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.22MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40002   Response Time :- 27ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.39MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40007   Response Time :- 58ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.39MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '6' Clients in Milliseconds: 22
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40006   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 9
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.08MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40003   Response Time :- 21ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.74MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40007   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 10
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 0.9MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40004   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 7.34MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40005   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 5.52MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40002   Response Time :- 24ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.27MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '6' Clients in Milliseconds: 31
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 26ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 31.34MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40004   Response Time :- 31ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 14.77MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40006   Response Time :- 31ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 14.03MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40003   Response Time :- 31ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 49.99MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40007   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 14.58MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40002   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 19.7MB/sec
+---------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 8 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '7' Clients in Milliseconds: 39
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40006   Response Time :- 22ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 8
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.11MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40004   Response Time :- 28ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.12MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40007   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.27MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40005   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.23MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40003   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.15MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40002   Response Time :- 48ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.46MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40008   Response Time :- 70ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.35MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '7' Clients in Milliseconds: 26
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40007   Response Time :- 20ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.61MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40005   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 5.95MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40008   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.5MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40006   Response Time :- 23ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 4.23MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40004   Response Time :- 24ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.43MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40003   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.18MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40002   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 4.36MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '7' Clients in Milliseconds: 32
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 38.51MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40007   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 21.49MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40006   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 29.36MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40004   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 41.74MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40002   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 18.64MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40008   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 17.57MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40003   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 13
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 7.41MB/sec
+---------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 9 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '8' Clients in Milliseconds: 36
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40007   Response Time :- 25ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.16MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40008   Response Time :- 27ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 12
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.08MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40006   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.23MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40005   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.14MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40004   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 12
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.08MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40002   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.76MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40003   Response Time :- 43ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.52MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40009   Response Time :- 61ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.36MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '8' Clients in Milliseconds: 31
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 27ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.92MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40006   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 6.27MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40008   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.95MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40004   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.69MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40007   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 3.7MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40003   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 5.14MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40002   Response Time :- 35ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 6.6MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40009   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.94MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '8' Clients in Milliseconds: 40
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40005   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 37.8MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40007   Response Time :- 37ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 32.42MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40006   Response Time :- 37ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 33.81MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40008   Response Time :- 38ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 46.86MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40004   Response Time :- 39ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 20.84MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40003   Response Time :- 43ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 15.45MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40002   Response Time :- 44ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 21.44MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40009   Response Time :- 44ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 19.86MB/sec
+---------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------------
+************************** Between 10 Clients  ************************************** 
+--------------------------------------------------------------------------------------
+
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
+
+ Enter File name :- F_1KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '9' Clients in Milliseconds: 44
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40008   Response Time :- 29ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.26MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40006   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 7
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.14MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40009   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.37MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40007   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.22MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40005   Response Time :- 39ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.67MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40004   Response Time :- 45ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.35MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40002   Response Time :- 47ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.59MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40003   Response Time :- 61ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 2
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.46MB/sec
+---------------------------------------------------------------------------------
+ 9.   Client9   IP:127.0.0.1  Port:40010   Response Time :- 71ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_1KB.txt File size : 1.01KB
+
+Performance speed 0.28MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_10KB.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '9' Clients in Milliseconds: 33
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40006   Response Time :- 24ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.62MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40009   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.63MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40005   Response Time :- 32ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.63MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40007   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 3.1MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40008   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 1.73MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40010   Response Time :- 33ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 11
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 0.88MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40004   Response Time :- 34ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 5.14MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40003   Response Time :- 35ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 6.94MB/sec
+---------------------------------------------------------------------------------
+ 9.   Client9   IP:127.0.0.1  Port:40002   Response Time :- 39ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_10KB.txt File size : 10.08KB
+
+Performance speed 2.45MB/sec
+---------------------------------------------------------------------------------
+
+
+ Enter File name :- F_100kb.txt
+
+************    Lookup for file    ***********
+---------------------------------------------------------------------------------
+Average Response Time from '9' Clients in Milliseconds: 40
+---------------------------------------------------------------------------------
+************    Download file    ***********
+ 1.   Client1   IP:127.0.0.1  Port:40006   Response Time :- 30ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 50.31MB/sec
+---------------------------------------------------------------------------------
+ 2.   Client2   IP:127.0.0.1  Port:40009   Response Time :- 35ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 5
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 16.48MB/sec
+---------------------------------------------------------------------------------
+ 3.   Client3   IP:127.0.0.1  Port:40007   Response Time :- 36ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 27.01MB/sec
+---------------------------------------------------------------------------------
+ 4.   Client4   IP:127.0.0.1  Port:40008   Response Time :- 39ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 30.58MB/sec
+---------------------------------------------------------------------------------
+ 5.   Client5   IP:127.0.0.1  Port:40005   Response Time :- 40ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 4
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 20.81MB/sec
+---------------------------------------------------------------------------------
+ 6.   Client6   IP:127.0.0.1  Port:40010   Response Time :- 43ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 3
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 31.86MB/sec
+---------------------------------------------------------------------------------
+ 7.   Client7   IP:127.0.0.1  Port:40003   Response Time :- 44ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 13
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 7.3MB/sec
+---------------------------------------------------------------------------------
+ 8.   Client8   IP:127.0.0.1  Port:40004   Response Time :- 44ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 6
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 14.3MB/sec
+---------------------------------------------------------------------------------
+ 9.   Client9   IP:127.0.0.1  Port:40002   Response Time :- 46ms
+---------------------------------------------------------------------------------
+Transfer Time in milliseconds: 1
+
+Downloaded file :F_100kb.txt File size : 100.78KB
+
+Performance speed 49.91MB/sec
+---------------------------------------------------------------------------------
+
+
+	1. Lookup Files
+	2. Exit 
+	Enter :- 1
