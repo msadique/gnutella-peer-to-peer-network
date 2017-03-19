@@ -1,0 +1,200 @@
+
+Dissuade deter:turn away from by persuasion; "Negative campaigning will only dissuade people":ANT :- persuade::
+
+Distend swell from or as if from internal pressure; "The distended bellies of the starving cows"
+
+Distill distil:give off (a liquid); "The doctor distilled a few drops of disinfectant onto the wound"
+
+Distrait distracted:having the attention diverted especially because of anxiety
+
+Distraught overwrought:deeply agitated especially from emotion; "distraught with grief"
+
+Dither pother:fuss:tizzy:flap:an excited state of agitation; "he was in a dither"; "there was a terrible flap about the theft"
+
+Diurnal variation:fluctuations that occur during each day
+
+Divest strip:undress:disinvest:remove (someone
+
+Divulge disclose:let_on:bring_out:reveal:discover:expose:impart:break:give_away:let_out:make known to the public information that was previously known only to a few people or that was meant to be kept a secret; "The auction house would not disclose the price at which the van Gogh had sold"; "The actress won
+
+Doddering doddery:gaga:senile:mentally or physically infirm with age; "his mother was doddering and frail"
+
+Doff remove; "He doffed his hat"
+
+Dogged bulldog:dour:pertinacious:tenacious:unyielding:stubbornly unyielding; "dogged persistence"; "dour determination"; "the most vocal and pertinacious of all the critics"; "a mind not gifted to discover truth but tenacious to hold it"- T.S.Eliot; "men tenacious of opinion"
+
+Doggerel doggerel_verse:jingle:a comic verse of irregular measure; "he had heard some silly doggerel that kept running through his mind"
+
+Doldrums the_doldrums:a belt of calms and light winds between the northern and southern trade winds of the Atlantic and Pacific
+
+Dolt stupid:stupid_person:dullard:pudding_head:pudden-head:poor_fish:pillock:a person who is not very bright; "The economy, stupid!"
+
+Don Don_River:a European river in southwestern Russia; flows into the Sea of Azov
+
+Doodle scribble:scrabble:an aimless drawing
+
+Dormer dormer_window:a gabled extension built out from a sloping roof to accommodate a vertical window
+
+Dossier a collection of papers containing detailed information about a particular person or subject (usually a person
+
+Dotage second_childhood:senility:mental infirmity as a consequence of old age; sometimes shown by foolish infatuations
+
+Dote shower with love; show excessive affection for; "Grandmother dotes on her the twins"
+
+Dour dark:glowering:glum:moody:morose:saturnine:sour:sullen:showing a brooding ill humor; "a dark scowl"; "the proverbially dour New England Puritan"; "a glum, hopeless shrug"; "he sat in moody silence"; "a morose and unsociable manner"; "a saturnine, almost misanthropic young genius"- Bruce Bliven; "a sour temper
+
+Douse drench:dowse:soak:sop:souse:cover with liquid; pour liquid onto; "souse water on his hot face"
+
+Dowdy pandowdy:deep-dish apple dessert covered with a rich crust
+
+Downcast a ventilation shaft through which air enters a mine
+
+Dredge a power shovel to remove material from a channel or riverbed
+
+Dregs grounds:settlings:sediment that has settled at the bottom of a liquid
+
+Drivel drool:dribble:slobber:saliva spilling from the mouth
+
+Droll comical in an odd or whimsical manner; "a droll little man with a quiet tongue-in-cheek kind of humor"
+
+Drone stingless male bee in a colony of social bees (especially honeybees) whose sole function is to mate with the queen
+
+Dross impurity:worthless material that should be removed; "there were impurities in the water"
+
+Drudgery plodding:grind:donkeywork:hard monotonous routine work
+
+Duel any struggle between two skillful opponents (individuals or groups)
+
+Dulcet honeyed:mellifluous:mellisonant:sweet:pleasing to the ear; "the dulcet tones of the cello"
+
+Dunce cap:dunce:fool:a cone-shaped paper hat formerly placed on the head of slow or lazy pupils
+
+Duress compulsory force or threat; "confessed under duress"
+
+Dwindle dwindle_away:dwindle_down:become smaller or lose substance; "Her savings dwindled down"
+
+Dyslexia impaired ability to learn to read
+
+Earmark hallmark:trademark:stylemark:a distinctive characteristic or attribute
+
+Earthy coarse:crude:gross:vulgar:conspicuously and tastelessly indecent; "coarse language"; "a crude joke"; "crude behavior"; "an earthy sense of humor"; "a revoltingly gross expletive"; "a vulgar gesture"; "full of language so vulgar it should have been edited"
+
+Easel an upright tripod for displaying something (usually an artist
+
+Eavesdrop listen_in:listen without the speaker
+
+Ebb reflux:the outward flow of the tide
+
+Ebullient exuberant:high-spirited:joyously unrestrained
+
+Ecclesiastic cleric:churchman:divine:a clergyman or other person in religious orders
+
+Echelon a diffraction grating consisting of a pile of plates of equal thickness arranged stepwise with a constant offset
+
+Eclectic eclecticism:method:making decisions on the basis of what seems best instead of following some single doctrine or style
+
+Eddy twist:a miniature whirlpool or whirlwind resulting when the current of a fluid doubles back on itself
+
+Edifice building:a structure that has a roof and walls and stands more or less permanently in one place; "there was a three-story building on the corner"; "it was an imposing edifice"
+
+Eerie eery:so strange as to inspire a feeling of fear; "an uncomfortable and eerie stillness in the woods"; "an eerie midnight howl"
+
+Efface obliterate:remove completely from recognition or memory; "efface the memory of the time in the camps"
+
+Effeminate weak:characterized by excessive softness or self-indulgence; "an effeminate civilization"
+
+Effete decadent:marked by excessive self-indulgence and moral decay; "a decadent life of excessive money and no sense of responsibility"; "a group of effete self-professed intellectuals"
+
+Effluvium a foul-smelling outflow or vapor (especially a gaseous waste)
+
+Effrontery presumption:presumptuousness:assumption:audacious (even arrogant) behavior that you have no right to; "he despised them for their presumptuousness"
+
+Effusion flow under pressure
+
+Egalitarian equalitarian:a person who believes in the equality of all people:ANT :- elitist::
+
+Egregious crying(a):flagrant:glaring:gross:rank:conspicuously and outrageously bad or reprehensible; "a crying shame"; "an egregious lie"; "flagrant violation of human rights"; "a glaring error"; "gross ineptitude"; "gross injustice"; "rank treachery"
+
+Egress egression:emergence:the act of coming (or going) out; becoming apparent
+
+Eke out:squeeze_out:obtain with difficulty; "He eked out some information from the archives"
+
+Eke out:squeeze_out:obtain with difficulty; "He eked out some information from the archives"
+
+Elan enthusiastic and assured vigor and liveliness; "a performance of great elan and sophistication"
+
+Elated exultantly proud and joyful; in high spirits; "the elated winner"; "felt elated and excited":ANT :- dejected::
+
+Elegy lament:a mournful poem; a lament for the dead
+
+Elicit derive by reason; "elicit a solution"
+
+Elliptical elliptic:containing or characterized by ellipsis; "the clause of comparison is often elliptical"- G.O.Curme
+
+Elucidate clear:clear_up:shed_light_on:crystallize:crystallise:crystalize:crystalise:straighten_out:sort_out:enlighten:illuminate:make free from confusion or ambiguity; make clear; "Could you clarify these remarks?"; "Clear up the question of who is at fault"
+
+Elusive evasive:skillful at eluding capture; "a cabal of conspirators, each more elusive than the archterrorist"- David Kline
+
+Elysian Elysium:Fields:(Greek mythology) the abode of the blessed after death
+
+Emaciated bony:cadaverous:gaunt:haggard:pinched:skeletal:wasted:very thin especially from disease or hunger or cold; "emaciated bony hands"; "a nightmare population of gaunt men and skeletal boys"; "eyes were haggard and cavernous"; "small pinched faces"; "kept life in his wasted frame only by grim concentration"
+
+Emanate exhale:give_forth:give out (breath or an odor); "The chimney exhales a thick smoke"
+
+Emancipate manumit:free from slavery or servitude
+
+Embargo trade_embargo:trade_stoppage:a government order imposing a trade barrier
+
+Embark enter:set out on (an enterprise, subject of study, etc.); "she embarked upon a new career"
+
+Embark enter:set out on (an enterprise, subject of study, etc.); "she embarked upon a new career"
+
+Embezzlement peculation:defalcation:misapplication:misappropriation:the fraudulent appropriation of funds or property entrusted to your care but actually owned by someone else
+
+Embroil tangle:sweep:sweep_up:drag:drag_in:force into some kind of situation, condition, or course of action; "They were swept up by the events"; "don
+
+Emend make improvements or corrections to; "the text was emended in the second edition"
+
+Emetic vomit:vomitive:nauseant:a medicine that induces nausea and vomiting
+
+Emissary vein:vena_emissaria:one of several connecting veins in the scalp and head that drain blood from sinuses in the dura mater to veins outside the skull
+
+Emphatic forceful:forceful and definite in expression or action; "the document contained a particularly emphatic guarantee of religious liberty"
+
+Emphatic forceful:forceful and definite in expression or action; "the document contained a particularly emphatic guarantee of religious liberty"
+
+Enamor capture:enamour:trance:catch:becharm:captivate:beguile:charm:fascinate:bewitch:entrance:enchant:attract; cause to be enamored; "She captured all the men
+
+Encomium eulogy:panegyric:paean:pean:a formal expression of praise
+
+Encumber restrain:cumber:constrain:hold back
+
+Endearment the act of showing affection
+
+Endowed provided or supplied or equipped with (especially as by inheritance or nature); "an well-endowed college"; "endowed with good eyesight"; "endowed by their Creator with certain unalienable rights":ANT :- unendowed::
+
+Enervate weaken mentally or morally
+
+Enfranchise grant voting rights:ANT :- disenfranchise:disfranchise::
+
+Engender beget:get:father:mother:sire:generate:bring_forth:make children; "Abraham begot Isaac"; "Men often father children but don
+
+Enjoin order:tell:say:give instructions to or direct somebody to do something with authority; "I said to him to go home"; "She ordered him to do the shopping"; "The mother told the child to get dressed"
+
+Enjoin order:tell:say:give instructions to or direct somebody to do something with authority; "I said to him to go home"; "She ordered him to do the shopping"; "The mother told the child to get dressed"
+
+Enmity hostility:ill_will:the feeling of a hostile person; "he could no longer contain his hostility"
+
+Ennui boredom:tedium:the feeling of being bored by something tedious
+
+Enormity an act of extreme wickedness
+
+Enrapture enchant:transport:enthrall:ravish:enthral:delight:hold spellbound:ANT :- disenchant:disillusion::
+
+Ensconce settle:fix firmly; "He ensconced himself in the chair"
+
+Ensue result:issue or terminate (in a specified way, state, etc.); end; "result in tragedy"
+
+Entail the act of entailing property; the creation of a fee tail from a fee simple
+
+Entente entente_cordiale:a friendly understanding between political powers
